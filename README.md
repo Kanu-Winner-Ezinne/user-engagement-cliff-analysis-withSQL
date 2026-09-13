@@ -1,8 +1,13 @@
-# Pocketpath – The Stickiness Cliff
+##  Investigating the Release 5.2 Pocketpath Stickiness Drop
 
 ## Project Overview
 
+This analysis investigates the drop in Pocketpath's reported stickiness after Release 5.2 on **10 August 2026**.
+
 Pocketpath Growth noticed that product stickiness dropped from around **35% to 28%** after Release 5.2 on **August 10, 2026**.
+Before Release 5.2, internal and QA accounts were using the production environment and were included in engagement metrics.
+
+The initial dashboard suggested that user engagement had dropped significantly. 
 
 The team was concerned that real user engagement had suddenly declined.
 
@@ -90,6 +95,7 @@ The overall dashboard showed a large drop:
 At first, this looked like a serious engagement problem.
 
 However, internal/test accounts made up **26.1% of DAU** before the release.
+When internal users are excluded, average daily stickiness changed only from 28.5% to 28.4%. This indicates that the apparent stickiness cliff was primarily a data measurement issue, not a real decline in customer engagement.
 
 When I removed these accounts and looked only at real users:
 
